@@ -24,6 +24,9 @@ class Application:
         self.clear_controller()
         self._controller = controller(self)
 
+    def get_controller(self):
+        return self._controller
+
     def update(self):
         self._app.update()
 
@@ -41,13 +44,16 @@ class Application:
         return self._app
 
     # Getters
-    def _window_width(self):
-        return 300
+    @staticmethod
+    def _window_width():
+        return 1024
 
-    def _window_height(self):
-        return 300
+    @staticmethod
+    def _window_height():
+        return 600
 
-    def _window_title(self):
+    @staticmethod
+    def _window_title():
         return "title"
 
     def _full_screen(self):
