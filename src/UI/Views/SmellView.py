@@ -1,7 +1,7 @@
 from UI.Views.View import View
 from UI.Button import Button
 from PIL import Image
-import os, sys
+import os
 
 class SmellView(View):
 

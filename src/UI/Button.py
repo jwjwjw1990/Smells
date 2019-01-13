@@ -1,4 +1,3 @@
-from tkinter import PhotoImage
 
 from guizero import PushButton
 
