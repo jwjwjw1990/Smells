@@ -1,6 +1,8 @@
 from UI.Views.View import View
 from UI.Button import Button
 from PIL import Image
+from tkinter import *
+
 import os, sys
 
 class SmellView(View):
