@@ -1,7 +1,7 @@
 from UI.Views.View import View
 from UI.Button import Button
 from PIL import Image
-from tkinter import *
+import tkinter
 
 import os, sys
 
@@ -56,8 +56,9 @@ class SmellView(View):
 
 
     def set_images(self):
-        rootdir = os.path.dirname(os.getcwd()) + os.sep + 'resources\ButtonImages'
+        rootdir = os.getcwd() + os.sep + 'Smells' + os.sep + 'resources' + os.sep + 'ButtonImages'
         tempimages = []
+        print (rootdir)
         for subdir, dirs, files in os.walk(rootdir):
             for file in files:
                 filepath = subdir + os.sep + file

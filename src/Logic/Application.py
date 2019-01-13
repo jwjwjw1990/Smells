@@ -1,4 +1,5 @@
 from guizero import App
+import tkinter
 
 class Application:
     # Default variables

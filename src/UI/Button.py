@@ -1,4 +1,4 @@
-
+import tkinter
 from guizero import PushButton
 
 
@@ -9,6 +9,7 @@ class Button(PushButton):
         self._index = i
         self._app = app
         self._parent = parent
+        print (images)
         self._images = images
         super(Button, self).__init__(app, command=self.press, grid=pos)
         self.image = self._images[0]

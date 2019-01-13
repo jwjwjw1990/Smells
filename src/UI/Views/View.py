@@ -1,3 +1,5 @@
+import tkinter
+
 class View:
     _childs = {}
 
