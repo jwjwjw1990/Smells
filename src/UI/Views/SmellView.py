@@ -1,11 +1,11 @@
-from src.UI.Views.View import View
-from src.UI.Button import Button
+from UI.Views.View import View
+from UI.Button import Button
 from PIL import Image
 import os, sys
 
 class SmellView(View):
 
-    button_values = [0, 6, 4, 3]
+    button_values = [12, 4, 18, 2]
     end_values = [6, 3, 1, 4]
     positions = []
     red = [250, 100, 100]
@@ -58,7 +58,7 @@ class SmellView(View):
         for subdir, dirs, files in os.walk(rootdir):
             for file in files:
                 filepath = subdir + os.sep + file
-                if filepath.endswith('jpg'):
+                if filepath.endswith('png'):
                     tempimages.append(filepath)
         self._images = tempimages
 
@@ -69,7 +69,7 @@ class SmellView(View):
                 im = Image.open(infile)
                 new_size = self.get_new_size(im.size)
                 im = im.resize(new_size, Image.LANCZOS)
-                im.save(infile, "JPEG")
+                im.save(infile, "png")
             except IOError:
                 print("cannot modify image for '%s'" % infile)
 

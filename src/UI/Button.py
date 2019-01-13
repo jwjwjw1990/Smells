@@ -18,7 +18,7 @@ class Button(PushButton):
         self.update()
 
     def press(self):
-        self._id = (self._id + 1) % 7
+        self._id = (self._id + 1) % 23
         self.update()
 
     def update(self):

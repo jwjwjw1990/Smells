@@ -1,5 +1,5 @@
-from src.Controllers.Controller import Controller
-from src.UI.Views.SmellView import SmellView
+from Controllers.Controller import Controller
+from UI.Views.SmellView import SmellView
 # from pip.gpiozero import LED
 
 class SmellController(Controller):
