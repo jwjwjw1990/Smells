@@ -1,6 +1,5 @@
 from guizero import App
 
-
 class Application:
     # Default variables
     _is_full_screen = False

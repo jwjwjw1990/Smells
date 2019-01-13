@@ -5,6 +5,7 @@ from tkinter import *
 
 import os, sys
 
+
 class SmellView(View):
 
     button_values = [12, 4, 18, 2]
