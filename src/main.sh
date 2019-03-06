@@ -1,7 +1,9 @@
+#!/usr/bin/python3
+
 import sys
 sys.path.insert(0, '/usr/local/lib/python3.5/dist-packages')
-from src.Logic.Application import Application
-from src.Controllers.SmellController import SmellController
+from Logic.Application import Application
+from Controllers.SmellController import SmellController
 import tkinter
 import os
 

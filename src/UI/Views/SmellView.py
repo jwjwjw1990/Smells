@@ -1,15 +1,23 @@
 from UI.Views.View import View
 from UI.Button import Button
 from PIL import Image
+from time import sleep
 import tkinter
 
 import os, sys
+import RPi.GPIO as GPIO
 
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(21,GPIO.OUT)
+GPIO.setup(20,GPIO.OUT)
+#GPIO.setup(16,GPIO.IN,
+#           pull_up_down=GPIO.PUD_DOWN)
+#GPIO.setwarnings(False)
 
-class SmellView(View):
-
-    button_values = [12, 4, 18, 2]
-    end_values = [6, 3, 1, 4]
+class SmellView(View):  
+    
+    button_values = [22, 0, 1, 2]
+    end_values = [1, 2, 3, 4]
     positions = []
     red = [250, 100, 100]
     blue = [100, 100, 250]
@@ -17,6 +25,19 @@ class SmellView(View):
     orange = [250, 190, 100]
     yellow = [250, 250, 5]
     colors = [blue, red, green, orange]
+    max_size = 320, 300
+    
+    GPIO.output(21,0)
+    GPIO.output(20,0)
+    
+    #try:
+    #    while True:
+    #        if (GPIO.input(16)):
+    #            print('reset')
+    #            GPIO.output(20, 0)
+    #finally:
+    #    GPIO.cleanup()
+                
 
     def create_button(self, app, key, i, pos, bg):
         but = Button(app, self, key, i, pos, self._images, bg)
@@ -37,14 +58,17 @@ class SmellView(View):
     def update_button(self, index, value):
         self.button_values[index] = value
         if self.check_sneeze():
+            GPIO.output(21,1)
             print('sneezing')
         else:
             print('stop sneezing')
+            GPIO.output(21,0)
         self.check_end()
 
     def check_end(self):
         if self.button_values == self.end_values:
-            print('end game')
+            GPIO.output(20,1)
+            
 
     def check_sneeze(self):
         do_sneeze = False
@@ -56,14 +80,17 @@ class SmellView(View):
 
 
     def set_images(self):
-        rootdir = os.getcwd() + os.sep + 'Smells' + os.sep + 'resources' + os.sep + 'ButtonImages'
-        tempimages = []
+        apppath = os.path.dirname(os.path.abspath('__file__'))
+        rootdir = os.path.dirname(apppath) + os.sep + 'resources' + os.sep + 'ButtonImages'
         print (rootdir)
+        tempimages = []
         for subdir, dirs, files in os.walk(rootdir):
             for file in files:
                 filepath = subdir + os.sep + file
                 if filepath.endswith('png'):
                     tempimages.append(filepath)
+                    
+        print (tempimages)
         self._images = tempimages
 
     def resize_images(self):
@@ -78,8 +105,7 @@ class SmellView(View):
                 print("cannot modify image for '%s'" % infile)
 
     def get_new_size(self, orig_size):
-        max_size = 480, 275
-        ratio = min(max_size[0] / orig_size[0], max_size[1] / orig_size[1])
+        ratio = min(self.max_size[0] / orig_size[0], self.max_size[1] / orig_size[1])
         new_size = round(orig_size[0] * ratio), round(orig_size[1] * ratio)
         return new_size
 

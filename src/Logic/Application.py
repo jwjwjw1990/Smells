@@ -3,7 +3,7 @@ import tkinter
 
 class Application:
     # Default variables
-    _is_full_screen = False
+    _is_full_screen = True
     _controller = None
 
     # Constructor
@@ -16,7 +16,8 @@ class Application:
             title=self._window_title(),
             width=self._window_width(),
             height=self._window_height(),
-            layout="grid"
+            layout="grid",
+            bg="black" #255,255,255
         )
         self._app.tk.attributes("-fullscreen", self._full_screen())
 
@@ -46,11 +47,11 @@ class Application:
     # Getters
     @staticmethod
     def _window_width():
-        return 1024
+        return 1920
 
     @staticmethod
     def _window_height():
-        return 600
+        return 1080
 
     @staticmethod
     def _window_title():
