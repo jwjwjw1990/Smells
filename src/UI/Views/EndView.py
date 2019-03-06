@@ -14,4 +14,4 @@ class EndView(View):
     GPIO.output(20,0)
 
     def render(self, app):
-        self.create_buttons(app)
+        bg = [100, 200, 100]

@@ -5,4 +5,3 @@ class SmellController(Controller):
     
     def __init__(self, application):
         super(SmellController, self).__init__(SmellView, application)
-

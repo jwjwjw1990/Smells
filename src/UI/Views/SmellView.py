@@ -1,6 +1,7 @@
 from UI.Views.View import View
 from UI.Button import Button
 from PIL import Image
+from Controllers.EndController import EndController
 from time import sleep
 import tkinter
 
@@ -14,8 +15,8 @@ GPIO.setup(20,GPIO.OUT)
 #           pull_up_down=GPIO.PUD_DOWN)
 #GPIO.setwarnings(False)
 
-class SmellView(View):  
-    
+
+class SmellView(View):
     button_values = [22, 0, 1, 2]
     end_values = [1, 2, 3, 4]
     positions = []
@@ -53,6 +54,7 @@ class SmellView(View):
             self.create_button(app, self.button_values[i], i, pos, bg)
 
     def render(self, app):
+        self._app = app
         self.create_buttons(app)
 
     def update_button(self, index, value):
@@ -68,7 +70,8 @@ class SmellView(View):
     def check_end(self):
         if self.button_values == self.end_values:
             GPIO.output(20,1)
-            
+            self._app.set_controller(EndController)
+            # Go To EndView
 
     def check_sneeze(self):
         do_sneeze = False

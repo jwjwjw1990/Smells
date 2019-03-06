@@ -1,37 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21ed836f-dbeb-4011-b370-ff414a32d720" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/aardbe2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/aardbe2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/ananas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/ananas2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/appel2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/appel2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/banaan2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/banaan2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/chilipeper2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/chilipeper2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/chocola2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/chocola2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/citroen2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/citroen2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/coffee2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/coffee2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/fout1.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/fout1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/honing2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/honing2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/kaas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/kaas2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/knoflook2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/knoflook2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/lavendel2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/lavendel2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/mango2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/mango2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/melk2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/melk2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/meloen2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/meloen2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/mint2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/mint2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/pindas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/pindas2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/popcorn2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/popcorn2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/sinasappel.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/sinasappel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/suikerspin2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/suikerspin2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/tomaat2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/tomaat2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ButtonImages/zuremat2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ButtonImages/zuremat2.png" afterDir="false" />
+    <list default="true" id="21ed836f-dbeb-4011-b370-ff414a32d720" name="Default Changelist" comment="Added EndView">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/SmellController.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/SmellController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logic/Application.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/Application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RPi/GPIO.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RPi/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Button.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Views/EndView.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Views/EndView.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/Views/SmellView.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Views/SmellView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/SmellController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="135">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -54,10 +29,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/Views/EndView.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UI/Views/SmellView.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="273">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/Button.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/Views/View.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -65,8 +81,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="364">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/EndController.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -74,22 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/Controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/Button.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/guizero/PushButton.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="275">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -97,8 +108,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Logic/Application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="258">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/logic/App.py" />
         <option value="$PROJECT_DIR$/src/Controllers/Controler.py" />
         <option value="$PROJECT_DIR$/src/logic/Application.py" />
-        <option value="$PROJECT_DIR$/src/Controllers/Controller.py" />
         <option value="$PROJECT_DIR$/src/Controllers/KontVerhaal.py" />
         <option value="$PROJECT_DIR$/src/Controllers/Home.py" />
         <option value="$PROJECT_DIR$/src/UI/View.py" />
@@ -139,11 +152,14 @@
         <option value="$PROJECT_DIR$/src/UI/Views/View.py" />
         <option value="$PROJECT_DIR$/src/Logic/Timer.py" />
         <option value="$PROJECT_DIR$/src/RPi/GPIO.py" />
-        <option value="$PROJECT_DIR$/src/Controllers/SmellController.py" />
-        <option value="$PROJECT_DIR$/src/UI/Views/SmellView.py" />
         <option value="$PROJECT_DIR$/src/Logic/Application.py" />
         <option value="$PROJECT_DIR$/src/UI/Button.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/Controllers/Controller.py" />
+        <option value="$PROJECT_DIR$/src/Controllers/EndController.py" />
+        <option value="$PROJECT_DIR$/src/Controllers/SmellController.py" />
+        <option value="$PROJECT_DIR$/src/UI/Views/EndView.py" />
+        <option value="$PROJECT_DIR$/src/UI/Views/SmellView.py" />
       </list>
     </option>
   </component>
@@ -171,12 +187,6 @@
               <item name="Smells" type="b2602c69:ProjectViewProjectNode" />
               <item name="Smells" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Smells" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Smells" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="ButtonImages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Smells" type="b2602c69:ProjectViewProjectNode" />
@@ -272,16 +282,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jan Willem A715\PycharmProjects\Smells\src\Controllers" />
+      <recent name="C:\Users\Jan Willem A715\PycharmProjects\Smells\src\UI\Views" />
+      <recent name="C:\Users\Jan Willem A715\PycharmProjects\Smells\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jan Willem A715\PycharmProjects\Smells\resources\ButtonImages" />
       <recent name="C:\Users\Jan Willem A715\PycharmProjects\Smells\src\UI\Views" />
       <recent name="C:\Users\Jan Willem A715\PycharmProjects\Smells\src" />
       <recent name="C:\Users\Jan Willem A715\PycharmProjects\Smells\src\UI" />
       <recent name="C:\Users\Jan Willem A715\PycharmProjects\Smells\src\logic" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jan Willem A715\PycharmProjects\Smells\src\UI\Views" />
-      <recent name="C:\Users\Jan Willem A715\PycharmProjects\Smells\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -379,19 +390,26 @@
       <option name="project" value="LOCAL" />
       <updated>1547403877273</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Renewed master-version">
+      <created>1551900393273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551900393273</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19283456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19283456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3347779" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3347779" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,7 +446,8 @@
     <MESSAGE value="asfknakjh" />
     <MESSAGE value="Raspberry Pull Init" />
     <MESSAGE value="sys edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="sys edit" />
+    <MESSAGE value="Renewed master-version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renewed master-version" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/__init__.py" />
@@ -439,9 +458,6 @@
     <entry file="file://$PROJECT_DIR$/src/Controllers/KontVerhaal.py" />
     <entry file="file://$PROJECT_DIR$/src/UI/Views/HomeView.py" />
     <entry file="file://$PROJECT_DIR$/src/Controllers/Home.py" />
-    <entry file="file://$PROJECT_DIR$/src/Controllers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/guizero/utilities.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -463,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Views/View.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Logic/Timer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -484,61 +493,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RPi/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/RPi/GPIO.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/guizero/PushButton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ButtonImages/melk2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ButtonImages/kaas2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ButtonImages/chocola2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ButtonImages/aardbe2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ButtonImages/fout1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/SmellController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="135">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RPi/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RPi/GPIO.py">
+    <entry file="file://$PROJECT_DIR$/src/UI/Button.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Views/SmellView.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="364">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/Controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Button.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/UI/Views/View.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Logic/Application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="258">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/guizero/PushButton.py">
+    <entry file="file://$PROJECT_DIR$/src/Controllers/EndController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="26">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Views/EndView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Views/SmellView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

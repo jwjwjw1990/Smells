@@ -12,3 +12,6 @@ class Controller:
 
     def app(self):
         return self._application
+
+    def set_view(self, view):
+        self._view = view
